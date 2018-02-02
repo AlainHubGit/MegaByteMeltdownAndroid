@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Ground
+  - Enemy
+  - Firewall
+  - Fire
+  - ShowOnPause
+  - PauseMenu
+  - MostForeground
+  - Background
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - EnemySight
+  - Files
+  - Fire
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Foreground
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2874012355
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

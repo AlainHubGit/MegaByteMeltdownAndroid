@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DestroyByBoundary.cs">
+    <Files>
+      <File FileName="Assets/Scripts/fileController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/levelCompleteScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/fireWallController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Prefabs/Standard Assets/2D/Scripts/Restarter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestroyByTime.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BossFight.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/DestroyByContact.cs" Line="18" Column="78" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="73" Column="13" />
+      <File FileName="Assets/Scripts/DestroyByBoundary.cs" Line="41" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
