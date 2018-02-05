@@ -18,9 +18,10 @@ public class EnemyFollow : MonoBehaviour {
 		{
 			transform.position = Vector2.MoveTowards (transform.position, target.position, speed * Time.deltaTime);
 		}
-
+		// 
 	}
-
+    // 
+    // 
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		if(other.collider.tag == "Firewall")
@@ -28,7 +29,7 @@ public class EnemyFollow : MonoBehaviour {
 			print("destroyed enemy");
 			Destroy(gameObject);
 		}
-	}
+	}//
 
 	// Update is called once per frame
 	void Update () {

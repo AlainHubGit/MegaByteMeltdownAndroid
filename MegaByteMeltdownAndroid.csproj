@@ -382,6 +382,7 @@
     <Compile Include="Assets\Scripts\xBackgroundController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\Android\proguard-user.txt" />
     <None Include="Assets\Prefabs\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Prefabs\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\Prefabs\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
