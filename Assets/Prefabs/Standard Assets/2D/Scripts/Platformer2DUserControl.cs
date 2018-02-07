@@ -51,12 +51,12 @@ namespace UnityStandardAssets._2D
 			bool m_Jump = touchPadJump.CanJump ();
 
 			Vector2 direction = touchPad.GetDirection ();
-			Debug.Log ("directionin Platformer is = " + direction);
+
 			// float h = acceleration.x;
 			// Pass all parameters to the character control script.
 			m_Character.Move(direction.x, m_Jump);
-			//Debug.Log ("acceleration.x = " + acceleration.x);
-			Debug.Log ("Virus is jumping = " + m_Jump);
+			Debug.Log ("direction.x = " + direction.x);
+			// Debug.Log ("Virus is jumping = " + m_Jump);
             m_Jump = false;
         }
     }

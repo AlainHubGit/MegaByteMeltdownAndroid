@@ -36,8 +36,9 @@ public class SimpleTouchPad : MonoBehaviour, IPointerDownHandler, IDragHandler, 
 		Vector2 currentPosition = data.position;
 		Vector2 directionRaw = currentPosition - origin;
 		// Do not rename it Vector2 direction, it will make direction a local variable, but we need a global variable.
-		direction = directionRaw.normalized;
-		Debug.Log ("direction in OnDrag (PointerEventData data) is:" + direction);
+			direction = directionRaw.normalized;
+
+			Debug.Log ("direction in OnDrag (PointerEventData data) is:" + direction);
 	}
 	}
 

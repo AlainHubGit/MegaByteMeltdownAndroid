@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/aDrive/level_1.unity
+- path: Assets/Scenes/aDrive/level_3.unity
   isLoaded: 1
   isActive: 1

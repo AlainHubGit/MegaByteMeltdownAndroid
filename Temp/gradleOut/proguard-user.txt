@@ -1,1 +1,0 @@
--dontwarn com.google.vr.ndk.base.DaydreamApi

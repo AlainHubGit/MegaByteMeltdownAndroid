@@ -985,6 +985,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4849704131616188, guid: 8e7f9ee3856b77145b191901ddc3bcde,
     type: 2}
   m_PrefabInternal: {fileID: 1917660767}
+--- !u!114 &104270892 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114252544213377694, guid: 39e0e05436b3f6746aa4a6d323824dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 215214790}
+  m_Script: {fileID: 11500000, guid: d8e193f9b75748d42b5b36bf877aeab8, type: 3}
 --- !u!4 &105809722 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4575033390090658, guid: 62b082eab4f08bf458836c2f2c771932,
@@ -2085,11 +2091,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 82274429196863368, guid: 39e0e05436b3f6746aa4a6d323824dd8,
-        type: 2}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: a05f1fafe7d644f2aac92a78b9a619b9, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 39e0e05436b3f6746aa4a6d323824dd8, type: 2}
   m_IsPrefabParent: 0
@@ -5397,6 +5398,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c47b188f3765bb24192c8d4476835d11, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &640573325 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114361650262822002, guid: 39e0e05436b3f6746aa4a6d323824dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 215214790}
+  m_Script: {fileID: 11500000, guid: 2c0912c51542fdb4abc7bffed6bd861e, type: 3}
 --- !u!1001 &645300656
 Prefab:
   m_ObjectHideFlags: 0
@@ -11329,7 +11336,7 @@ Transform:
   - {fileID: 895721360}
   - {fileID: 33455162}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1248029737
 Prefab:
@@ -12792,6 +12799,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114231649328806158, guid: 88d65e0697b07df48b126a7eca781a84,
+        type: 2}
+      propertyPath: touchPad
+      value: 
+      objectReference: {fileID: 640573325}
+    - target: {fileID: 114231649328806158, guid: 88d65e0697b07df48b126a7eca781a84,
+        type: 2}
+      propertyPath: touchPadJump
+      value: 
+      objectReference: {fileID: 104270892}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88d65e0697b07df48b126a7eca781a84, type: 2}
   m_IsPrefabParent: 0
@@ -14407,7 +14424,7 @@ Transform:
   - {fileID: 2058798828}
   - {fileID: 138454124}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1552673627
 Prefab:
