@@ -22,7 +22,7 @@ public class fireWallController : MonoBehaviour {
         }
         else if (!paused)
         {
-            transform.Translate(new Vector2(0.05f, 0.0f));
+            transform.Translate(new Vector2(0.1f, 0.0f));
         }
     }
 }

@@ -46,7 +46,7 @@ namespace UnityStandardAssets._2D
         }
 
 
-        public void Move(float move, bool jump)
+		public void Move(float move, bool jump)
         {
             
             //only control the player if grounded or airControl is turned on

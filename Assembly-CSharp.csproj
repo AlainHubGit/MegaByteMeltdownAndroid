@@ -116,6 +116,7 @@
      <Compile Include="Assets\Scripts\pauseScript.cs" />
      <Compile Include="Assets\Scripts\RandomRotator.cs" />
      <Compile Include="Assets\Scripts\SimpleTouchPad.cs" />
+     <Compile Include="Assets\Scripts\SimpleTouchPadJump.cs" />
      <Compile Include="Assets\Scripts\xBackgroundController.cs" />
      <None Include="Assets\Prefabs\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Prefabs\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
